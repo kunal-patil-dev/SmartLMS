@@ -16,7 +16,10 @@ let app = express()
 app.use(express.json())
 app.use(cookieParser())
 app.use(cors({
-    origin:"https://smart-lms-d0zm.onrender.com",
+    origin: [
+    "http://localhost:5173",  
+    "https://smart-lms-d0zm.onrender.com"  
+  ],
     credentials:true
 }))
 app.use("/api/auth", authRouter)
