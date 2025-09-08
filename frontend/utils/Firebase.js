@@ -2,11 +2,11 @@ import {getAuth, GoogleAuthProvider} from "firebase/auth"
 import { initializeApp } from "firebase/app";
 const firebaseConfig = {
   apiKey: import.meta.env.VITE_FIREBASE_APIKEY ,
-  authDomain: "loginlms-a7ea1.firebaseapp.com",
-  projectId: "loginlms-a7ea1",
-  storageBucket: "loginlms-a7ea1.firebasestorage.app",
-  messagingSenderId: "665916718747",
-  appId: "1:665916718747:web:16dbe0bfe5aeeface0903e"
+  authDomain: "smartlms-29d7f.firebaseapp.com",
+  projectId: "smartlms-29d7f",
+  storageBucket: "smartlms-29d7f.firebasestorage.app",
+  messagingSenderId: "770608192302",
+  appId: "1:770608192302:web:4606880df5336fe0fe78bf"
 };
 
 // Initialize Firebase
