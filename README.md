@@ -22,7 +22,6 @@ An **AI-Powered Learning Management System (LMS)** built with the **MERN stack**
 **Frontend:**
 - React.js
 - Redux Toolkit
-- TypeScript
 - Tailwind CSS
 
 **Backend:**
@@ -41,8 +40,8 @@ An **AI-Powered Learning Management System (LMS)** built with the **MERN stack**
 
 ```bash
 smart-lms/
-├── client/              # Frontend (React + Redux Toolkit + Tailwind)
-├── server/              # Backend (Node.js + Express)
+├── frontend/              # Frontend (React + Redux Toolkit + Tailwind)
+├── backedn/              # Backend (Node.js + Express)
 ├── configs/             # Config files (DB, APIs, etc.)
 ├── routes/              # Express routes
 ├── models/              # MongoDB models
@@ -98,31 +97,6 @@ npm run dev
 App will be running on:
 - **Frontend** → `http://localhost:5173`
 - **Backend** → `http://localhost:5000`
-
----
-
-## 📸 Screenshots (Optional)
-> Add UI screenshots here to showcase dashboards, search, and payment flows.
-
----
-
-## 🤝 Contribution
-
-Contributions, issues, and feature requests are welcome!
-
-1. Fork the project
-2. Create your feature branch (`git checkout -b feature/awesome-feature`)
-3. Commit your changes (`git commit -m 'Add awesome feature'`)
-4. Push to the branch (`git push origin feature/awesome-feature`)
-5. Open a Pull Request
-
----
-
-## 📜 License
-
-This project is licensed under the **MIT License**.
-
----
 
 ## 👨‍💻 Author
 
